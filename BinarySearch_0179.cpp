@@ -94,4 +94,8 @@ void binarySearch()
                 cout << "Elemen ditemukan pada index ke-" << mid << endl;
                 break;
             }
-        
+        else if (x < element[mid])
+            {
+                high = mid - 1;
+            }
+            
