@@ -105,4 +105,14 @@ void binarySearch()
 
         } while (low <= high);
 
-        
+        if (low > high)
+        {
+            cout << "Elemen tidak ditemukan!" << endl;
+        }
+
+        cout << "Ulangi pencarian? (y/n): ";
+        cin >> ulang;
+
+    } while (ulang == 'y' || ulang == 'Y');
+}
+
